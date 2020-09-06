@@ -1,12 +1,18 @@
 body{
   background: #333333;
-  background-image: url("../assets/clock.jpg");
-  background-repeat: no-repeat;
-  background-size: cover; 
-  
   font: 30px Bahnschrift, sans-serif;
   font-weight: 500;
   color: #d2dce6;
+}
+img{
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-repeat: no-repeat;
+  background-size: cover; 
 }
 .mask{
   position: absolute;
