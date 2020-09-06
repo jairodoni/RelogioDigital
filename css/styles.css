@@ -1,9 +1,18 @@
+
+@font-face{
+  font-family: "Bahnschrift";
+  src: url('../assets/fonts/bahnschrift.ttf');
+  font-family: "DMCAPS";
+  src: url('../assets/fonts/DM.TTF');
+}
+
 body{
   background: #333333;
   font: 30px Bahnschrift, sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   color: #d2dce6;
 }
+
 img{
   width: 100%;
   position: absolute;
@@ -14,6 +23,7 @@ img{
   background-repeat: no-repeat;
   background-size: cover; 
 }
+
 .mask{
   position: absolute;
   top: 0;
@@ -49,7 +59,6 @@ h1{
   font: 150px Bahnschrift, sans-serif;
   font-weight: 700;
   color: #d2dce6;
-  
   margin-bottom: -50px;
   /* text-shadow: 2px 2px #222222; */
 }
