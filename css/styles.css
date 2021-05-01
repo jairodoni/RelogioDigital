@@ -7,7 +7,7 @@ body {
   background: #cccccc;
   font: 2rem Lexend, sans-serif;
   font-weight: 500;
-  color: #d2dce6;
+  color: #c6d7e7;
 }
 
 .mask {
@@ -41,7 +41,6 @@ body {
   justify-content: center;
   text-align: center;
   flex-direction: column;
-  border: 2px solid red;
 }
 
 h1 + p {
@@ -53,7 +52,6 @@ h1 {
   font-family: Lexend, sans-serif;
   font-size: 10rem;
   font-weight: 600;
-  color: #d2dce6;
 }
 
 @media (max-width: 1080px) {
